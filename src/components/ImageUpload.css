@@ -1,0 +1,23 @@
+.imageUpload {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.imageUpload > progress {
+  width: 100%;
+}
+
+.imageUpload > input[type="text"] {
+  line-height: 40px;
+  border: none;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.imageUpload > input[type="text"]:focus {
+  outline: none;
+}
